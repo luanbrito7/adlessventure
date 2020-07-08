@@ -34,4 +34,9 @@ public class MainChar : MonoBehaviour
         position.y = position.y + 3.0f * vertical * Time.deltaTime;
         transform.position = position;
     }
+
+    // public Vector2 GetPosition()
+    // {
+    //     return transform.position;
+    // }
 }
